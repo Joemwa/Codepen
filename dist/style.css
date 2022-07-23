@@ -1,0 +1,75 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+
+.values {
+  background-color: #f79d65;
+  color: #5a2a27;
+}
+
+.heads {
+  color: #ccc7b9;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+
+
+
+* {
+ box-sizing: border-box; 
+}
+footer {
+  background-color:#ee9b00;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+#form{
+  background-color: #ffe3c3;
+}
+
+#navbar{
+  float: right;
+  background-color: #ee9b00;
+  padding: 20px;
+  display: flex;
+  
+}
+nav a {
+  color: #000000;
+  margin-left: 30px;
+}
+
+
+#title {
+  color: #7a7265;
+}
+
+#last {
+  font-size: 30px;
+}
